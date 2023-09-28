@@ -34,7 +34,7 @@ function checkText(){
     } else if (input.value.includes("do")){
         mainDiv.innerHTML = bessie.doing
         subDiv.innerHTML = "Great job!"
-    } else if (input.value.includes("want"),("like")){
+    } else if (input.value.includes("want")){
         mainDiv.innerHTML = bessie.likes
         subDiv.innerHTML = "Bessie the dog runs off into the sunset. You can't wait to go home and enjoy some.. Wait where are my glasses!?"
     } 
