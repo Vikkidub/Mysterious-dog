@@ -21,7 +21,7 @@ let hint = ["You catch a glimpse of it's collar tag, but it looks like the lette
             <button id="myBtn" onclick="checkText()">Enter</button>
             <h1 id="mainDiv"></h1>
             <p>
-            <div id="subDiv"onclick="getHint()"></div>
+            <div id="subDiv"onclick="getHint()"class="subDiv"></div>
             `;
         }
 
@@ -34,7 +34,7 @@ function checkText(){
     } else if (input.value.includes("do")){
         mainDiv.innerHTML = bessie.doing
         subDiv.innerHTML = "Great job!"
-    } else if (input.value.includes("want")){
+    } else if (input.value.includes("like")){ //try adding more words without breaking everything
         mainDiv.innerHTML = bessie.likes
         subDiv.innerHTML = "Bessie the dog runs off into the sunset. You can't wait to go home and enjoy some.. Wait where are my glasses!?"
     } 
