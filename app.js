@@ -55,7 +55,7 @@ function getHint(){
 }
 
 function clearValue(){
-    if (input.value == "ask away (lowercase)","name","called","do","want","like"){
+    if (input.value == "ask away (lowercase)","name","do","want","like"){
     input.value = "";
 }
 }
