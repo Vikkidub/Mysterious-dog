@@ -27,7 +27,7 @@ let hint = ["You catch a glimpse of it's collar tag, but it looks like the lette
 
 //controller
 function checkText(){    
-    if (input.value.includes("name"),("called")){
+    if (input.value.includes("name")){
         mainDiv.innerHTML = bessie.name
         headerDiv.innerHTML = "Perhaps hints can be found by clicking somewhere.."
         subDiv.innerHTML = "Well done!"
