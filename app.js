@@ -27,14 +27,14 @@ let hint = ["You catch a glimpse of it's collar tag, but it looks like the lette
 
 //controller
 function checkText(){    
-    if (input.value.includes("name")){
+    if (input.value.includes("name")||(input.value.includes("called"))){
         mainDiv.innerHTML = bessie.name
         headerDiv.innerHTML = "Perhaps hints can be found by clicking somewhere.."
         subDiv.innerHTML = "Well done!"
     } else if (input.value.includes("do")){
         mainDiv.innerHTML = bessie.doing
         subDiv.innerHTML = "Great job!"
-    } else if (input.value.includes("like")){ //try adding more words without breaking everything
+    } else if (input.value.includes("like")||(input.value.includes("want"))){ 
         mainDiv.innerHTML = bessie.likes
         subDiv.innerHTML = "Bessie the dog runs off into the sunset. You can't wait to go home and enjoy some.. Wait where are my glasses!?"
     } 
